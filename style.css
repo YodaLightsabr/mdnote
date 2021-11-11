@@ -1,0 +1,38 @@
+body, html, body > div.md {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  color: #37352f;
+}
+html, body {
+height: 100%;
+}
+div.bar {
+  background-color: #f7f6f3;
+  width: 100%;
+  position: fixed;
+  height: 50px;
+  top: 0px;
+  font-family: 'DM Sans', sans-serif;
+  color: #72706b;
+  padding: 10px;
+  box-sizing: border-box;
+  right: 0px;
+}
+body > div.md {
+  min-height: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  font-family: 'DM Sans', sans-serif;
+  padding-top: 50px;
+}
+h1, h2, h3, h4, h5, h6 {
+
+font-family: 'Mochiy Pop P One', sans-serif!important;
+}
+pre {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #222;
+  color: whitesmoke
+}
